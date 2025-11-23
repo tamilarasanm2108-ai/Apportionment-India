@@ -96,3 +96,9 @@ Issues, pull requests, and suggestions are welcome.
 
 Maintained by **Arasan** (tamilarasanm2108-ai on GitHub)
 
+
+## Quick run (data -> allocation -> annexures)
+1. python code/data_cleaning/clean.py --in data/raw --out data/processed
+2. python code/allocation/run_allocations.py --in data/processed --out data/outputs
+3. python code/analysis/compute_indicators.py --in data/outputs --out annexures
+
