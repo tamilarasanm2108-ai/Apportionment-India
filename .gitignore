@@ -1,0 +1,57 @@
+# ====================================
+# Python / Data Science .gitignore
+# ====================================
+
+# Bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data: ignore processed and temporary outputs
+data/processed/*
+data/outputs/*
+!data/processed/.keep
+!data/outputs/.keep
+
+# Logs and caches
+*.log
+*.tmp
+*.cache
+.cache/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# Editors
+.vscode/
+.idea/
+
+# CSVs generated during runtime
+*_merged_*.csv
+alloc_*_dp*.csv
+north_south_summary_*.csv
+detailed_states_*.csv
+
+# Figures generated automatically
+paper/figures/generated/*
+viz_output/
+plots/
+
+# Misc
+*.bak
+*.old
